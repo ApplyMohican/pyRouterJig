@@ -102,7 +102,7 @@ class Router_Bit(object):
         self.units = units
         self.transl = units.transl
         self.width = width
-        self.depth = depth
+        self.depth = height
         self.angle = angle
         self.bit_gentle = Decimal(bit_gentle)
 
