@@ -474,7 +474,7 @@ class Driver(QtWidgets.QMainWindow):
         self.le_bit_width.editingFinished.connect(self._on_bit_width)
 
         # Bit depth line edit
-        self.le_bit_depth_label = QtWidgets.QLabel(self.transl.tr('Bit Depth{}').format(us))
+        self.le_bit_depth_label = QtWidgets.QLabel(self.transl.tr('Bit Height{}').format(us))
         self.le_bit_depth = QtWidgets.QLineEdit(self.main_frame)
         self.le_bit_depth.setFixedWidth(lineEditWidth)
         self.le_bit_depth.setText(self.units.increments_to_string(self.bit.depth))
